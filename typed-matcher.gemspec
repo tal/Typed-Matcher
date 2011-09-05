@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Tal Atlas"]
   s.email       = ["tatlas@giltcity.com"]
   s.homepage    = "https://github.com/Talby/Typed-Matcher"
-  s.summary     = %q{TODO: Detect what type a string is}
-  s.description = %q{TODO: Define groups of matchers to determine what type of item a strng is}
+  s.summary     = %q{Detect what type a string is}
+  s.description = %q{Define groups of matchers to determine what type of item a strng is}
 
   s.rubyforge_project = "typed-matcher"
 
