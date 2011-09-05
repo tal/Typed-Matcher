@@ -1,8 +1,12 @@
 module Typed
   class Group
     
-    def initialize
+    def initialize(hsh={})
       @types = Hash.new {|h,k| h[k]=[]}
+
+      hsh.each do |type,regexes|
+        register type, *regexes
+      end
     end
 
     def register type, *regexs
