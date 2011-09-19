@@ -23,6 +23,7 @@ module Typed
           end
         end
       end
+      nil
     end
 
   end
